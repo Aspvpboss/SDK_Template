@@ -7,7 +7,7 @@ int render(Appstate *state){
 
     SDL_RenderClear(display->renderer);
 
-    SDK_Text_Render(state->fps_text);
+    SDK_Render_Text(state->fps_text);
 
     SDL_RenderPresent(display->renderer);
 

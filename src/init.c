@@ -7,7 +7,7 @@
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
 
-    SDK_Init(true, true, false);
+    SDK_Init(NULL, NULL, true, true, false);
 
     (*appstate) = t_malloc(sizeof(Appstate));
     Appstate *state = (Appstate*)(*appstate);

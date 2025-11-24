@@ -12,6 +12,6 @@ typedef struct{
     SDK_Display *display;
     SDK_Time *time;
     SDK_Input *input;
-    SDK_TextDisplay *fps_text;
+    SDK_Text *fps_text;
 
 } Appstate;

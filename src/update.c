@@ -1,7 +1,7 @@
 #include "update.h"
 
 
-void update_fps(SDK_TextDisplay *text, SDK_Time *time){
+void update_fps(SDK_Text *text, SDK_Time *time){
 
     char fps_string[20];
     snprintf(fps_string, sizeof(fps_string), "FPS: %.2f", time->fps);
